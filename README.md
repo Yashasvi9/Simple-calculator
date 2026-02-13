@@ -39,6 +39,7 @@ simple-calculator/
 ```bash
 gcc calculator.c -o calculator
 ./calculator
+```
 
 ---
 ### 🔹 On Windows (MinGW)
@@ -48,10 +49,10 @@ gcc calculator.c -o calculator
    cd path\to\your\project
 
 3. Compile the program:
-   gcc calculator.c -o calculator.exe
+  ``` gcc calculator.c -o calculator.exe```
 
 4. Run the program:
-   calculator.exe
+   ```calculator.exe```
 ---
 
 ## 💡 How It Works
@@ -95,4 +96,3 @@ This project helped in understanding:
 - Add support for continuous calculations without re-entering numbers.
 - Implement a calculation history feature.
 - Develop a graphical user interface (GUI) version.
-
